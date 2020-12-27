@@ -5,4 +5,4 @@
 @rem
 @rem ##########################################################################
 
-@rem Set lo
+@rem Set local scope for the variab
