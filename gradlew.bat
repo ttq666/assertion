@@ -24,4 +24,4 @@ set JAVA_EXE=java.exe
 if "%ERRORLEVEL%" == "0" goto init
 
 echo.
-ech
+echo ERROR: JAVA_HOME is not set a
