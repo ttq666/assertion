@@ -4,3 +4,5 @@
 # You can edit the include path and order by changing the proguardFiles
 # directive in build.gradle.
 #
+# For more details, see
+#   http://d
