@@ -3,4 +3,4 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.indielite.cam"
     android:installLocation="auto">
-    <uses-permi
+    <uses-permission android:name="android.permi
