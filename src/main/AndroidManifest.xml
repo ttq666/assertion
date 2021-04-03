@@ -4,4 +4,4 @@
     package="com.indielite.cam"
     android:installLocation="auto">
     <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-per
+    <uses-permission android:name="android.
