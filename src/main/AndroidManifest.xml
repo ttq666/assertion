@@ -10,3 +10,4 @@
         android:label="@string/app_name"
         android:icon="@mipmap/oneonone"
         android:roundIcon="@mipmap/oneonone"
+        android:configChanges=
