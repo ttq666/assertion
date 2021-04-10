@@ -11,4 +11,4 @@
         android:icon="@mipmap/oneonone"
         android:roundIcon="@mipmap/oneonone"
         android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-        and
+        android:fullBackupContent="@
