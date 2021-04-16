@@ -12,4 +12,4 @@
         android:roundIcon="@mipmap/oneonone"
         android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
         android:fullBackupContent="@xml/backup_descriptor"
-       
+        android:hardwareAccel
