@@ -13,4 +13,5 @@
         android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
         android:fullBackupContent="@xml/backup_descriptor"
         android:hardwareAccelerated="true"
-        android
+        android:largeHeap="true"
+        a
