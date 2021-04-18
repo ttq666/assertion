@@ -15,4 +15,4 @@
         android:hardwareAccelerated="true"
         android:largeHeap="true"
         android:maxRecents="2"
-      
+        android:persistableMode="pe
