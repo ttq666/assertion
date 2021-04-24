@@ -18,4 +18,5 @@
         android:persistableMode="persistAcrossReboots"
         android:resizeableActivity="true"
         android:supportsRtl="true"
-        android:screenOrientation="
+        android:screenOrientation="fullSensor"
+        android:sh
