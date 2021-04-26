@@ -20,4 +20,5 @@
         android:supportsRtl="true"
         android:screenOrientation="fullSensor"
         android:showForAllUsers="true"
-        android:supportsPictureInPi
+        android:supportsPictureInPicture="true"
+        android:windowS
