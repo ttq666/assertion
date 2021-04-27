@@ -22,4 +22,5 @@
         android:showForAllUsers="true"
         android:supportsPictureInPicture="true"
         android:windowSoftInputMode="adjustResize"
-        a
+        android:theme="@style/AppTheme"
+  
