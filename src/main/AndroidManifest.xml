@@ -23,4 +23,5 @@
         android:supportsPictureInPicture="true"
         android:windowSoftInputMode="adjustResize"
         android:theme="@style/AppTheme"
-  
+        tools:targetApi="n"
+        tools:
