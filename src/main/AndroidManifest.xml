@@ -24,4 +24,4 @@
         android:windowSoftInputMode="adjustResize"
         android:theme="@style/AppTheme"
         tools:targetApi="n"
-        tools:
+        tools:replace="android:label, icon, f
