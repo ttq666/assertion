@@ -26,4 +26,5 @@
         tools:targetApi="n"
         tools:replace="android:label, icon, fullBackupContent"
         android:allowBackup="true">
-        <activi
+        <activity
+            android:name="com.in
