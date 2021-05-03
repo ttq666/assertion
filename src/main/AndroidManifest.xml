@@ -25,4 +25,5 @@
         android:theme="@style/AppTheme"
         tools:targetApi="n"
         tools:replace="android:label, icon, fullBackupContent"
-        android:all
+        android:allowBackup="true">
+        <activi
