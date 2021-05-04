@@ -27,4 +27,5 @@
         tools:replace="android:label, icon, fullBackupContent"
         android:allowBackup="true">
         <activity
-            android:name="com.in
+            android:name="com.indielite.cam.MainActivity"
+     
