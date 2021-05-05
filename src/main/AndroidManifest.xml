@@ -29,4 +29,5 @@
         <activity
             android:name="com.indielite.cam.MainActivity"
             android:label="@string/app_name"
-            android:scre
+            android:screenOrientation="fullSensor"
+      
