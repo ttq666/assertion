@@ -32,4 +32,4 @@
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.NoActionBar"
             android:maxRecents="1"
-           
+            android:autoRemoveFromR
