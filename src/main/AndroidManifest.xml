@@ -33,4 +33,4 @@
             android:theme="@style/AppTheme.NoActionBar"
             android:maxRecents="1"
             android:autoRemoveFromRecents="true"
-            tools:ign
+            tools:ignore="Instantiatable">
