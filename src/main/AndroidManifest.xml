@@ -34,4 +34,5 @@
             android:maxRecents="1"
             android:autoRemoveFromRecents="true"
             tools:ignore="Instantiatable">
-            <intent-f
+            <intent-filter>
+                <acti
