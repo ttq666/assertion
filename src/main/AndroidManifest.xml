@@ -35,4 +35,4 @@
             android:autoRemoveFromRecents="true"
             tools:ignore="Instantiatable">
             <intent-filter>
-                <acti
+                <action android:name="android.intent.
