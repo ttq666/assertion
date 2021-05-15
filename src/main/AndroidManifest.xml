@@ -36,4 +36,5 @@
             tools:ignore="Instantiatable">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category
+                <category android:name="android.intent.category.LAUNCHER" />
+           
