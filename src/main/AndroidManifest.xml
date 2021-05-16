@@ -41,4 +41,4 @@
         </activity>
 
         <service
-      
+            android:name="com.indielite.
