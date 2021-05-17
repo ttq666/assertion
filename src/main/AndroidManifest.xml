@@ -41,4 +41,5 @@
         </activity>
 
         <service
-            android:name="com.indielite.cam.MyFirebaseMessagin
+            android:name="com.indielite.cam.MyFirebaseMessagingService"
+            android:exp
