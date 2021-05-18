@@ -43,4 +43,5 @@
         <service
             android:name="com.indielite.cam.MyFirebaseMessagingService"
             android:exported="false">
-            <inte
+            <intent-filter>
+                <a
