@@ -42,4 +42,5 @@
 
         <service
             android:name="com.indielite.cam.MyFirebaseMessagingService"
-            android:exp
+            android:exported="false">
+            <inte
