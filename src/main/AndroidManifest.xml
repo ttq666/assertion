@@ -47,4 +47,5 @@
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-        <meta
+        <meta-data
+            android:na
