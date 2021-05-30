@@ -48,4 +48,5 @@
             </intent-filter>
         </service>
         <meta-data
-            android:na
+            android:name="preloaded_fonts"
+            a
