@@ -49,4 +49,4 @@
         </service>
         <meta-data
             android:name="preloaded_fonts"
-            a
+            android:resource="@array/preloade
