@@ -52,4 +52,5 @@
             android:resource="@array/preloaded_fonts" />
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
-            android:resource="@mipmap/heart" 
+            android:resource="@mipmap/heart" />
+        <!-- Set color 
