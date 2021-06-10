@@ -51,4 +51,5 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
         <meta-data
-            android:name="com.google.firebase.messaging.default_n
+            android:name="com.google.firebase.messaging.default_notification_icon"
+          
