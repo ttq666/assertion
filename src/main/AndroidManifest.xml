@@ -53,4 +53,4 @@
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
             android:resource="@mipmap/heart" />
-        <!-- Set color 
+        <!-- Set color used with incoming notification m
