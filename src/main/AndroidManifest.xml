@@ -54,4 +54,4 @@
             android:name="com.google.firebase.messaging.default_notification_icon"
             android:resource="@mipmap/heart" />
         <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
-             notification message. See RE
+             notification message. See README(https://goo.gl/6BKBk7) fo
