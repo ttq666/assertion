@@ -59,4 +59,4 @@
             android:name="com.google.firebase.messaging.default_notification_color"
             android:resource="@color/colorPrimary" />
         <meta-data
-            andr
+            android:name="com.google.fireb
