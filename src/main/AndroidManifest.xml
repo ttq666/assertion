@@ -60,4 +60,4 @@
             android:resource="@color/colorPrimary" />
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_channel_id"
-            android:valu
+            android:value="@string/default_notification_c
