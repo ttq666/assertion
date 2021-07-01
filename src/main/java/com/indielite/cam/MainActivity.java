@@ -52,3 +52,37 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
+
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        drawer.addDrawerListener(toggle);
+        toggle.syncState();
+
+        navigationView = findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
+
+        overridePendingTransition(R.anim.right_in, R.anim.left_out);
+
+        ImageView imageButton = findViewById(R.id.button2);
+        imageButton.setOnClickListener(v -> {
+
+            CustomTabsIntent.Builder intentBuilder = new CustomTabsIntent.Builder();
+            intentBuilder.setToolbarColor(this.getResources().getColor(R.color.colorPrimaryDark));
+            intentBuilder.setUrlBarHidingEnabled(true);
+            intentBuilder.setCloseButtonIcon(toBitmap(Objects.requireNonNull(getDrawable(R.drawable.ic_arrow_back))));
+            intentBuilder.setDefaultShareMenuItemEnabled(true);
+            intentBuilder.setStartAnimations(this, R.anim.push_down_in, R.anim.push_down_out);
+            intentBuilder.setExitAnimations(this, R.anim.push_up_in, R.anim.push_up_out);
+            intentBuilder.build().launchUrl(this, Uri.parse(websiteurl));
+            intentBuilder.setShowTitle(true);
+            Toast.makeText(getApplicationContext(),
+                           "Opening IndieCam web app..",
+                            Toast.LENGTH_LONG)
+                            .show();
+        });
+
+        imageButton = findViewById(R.id.button3);
+        imageButton.setOnClickListener(v -> {
+
+            Intent intent = getPackageManager().getLaunchIntentForPackage("chat.melior.cam");
+            if (intent != null) {
