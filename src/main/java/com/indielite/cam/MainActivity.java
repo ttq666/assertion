@@ -86,3 +86,43 @@ public class MainActivity extends AppCompatActivity
 
             Intent intent = getPackageManager().getLaunchIntentForPackage("chat.melior.cam");
             if (intent != null) {
+                // We found the activity now start the activity
+                intent.setComponent(new ComponentName ("chat.melior.cam", "chat.melior.cam.MainActivity"));
+                startActivity(intent);
+                overridePendingTransition(R.anim.push_up_in, R.anim.push_up_out);
+                Toast.makeText(getApplicationContext(),
+                               "teleporting you to [melior]",
+                               Toast.LENGTH_LONG)
+                        .show();
+            } else {
+                CustomTabsIntent.Builder intentBuilder = new CustomTabsIntent.Builder();
+                intentBuilder.setToolbarColor(this.getResources().getColor(R.color.colorPrimaryDark));
+                intentBuilder.setUrlBarHidingEnabled(true);
+                intentBuilder.setCloseButtonIcon(toBitmap(Objects.requireNonNull(getDrawable(R.drawable.ic_arrow_back))));
+                intentBuilder.setDefaultShareMenuItemEnabled(true);
+                intentBuilder.build().launchUrl(this, Uri.parse(chaturl));
+                overridePendingTransition (R.anim.slide_in_right, R.anim.slide_out_left);
+                intentBuilder.setShowTitle(true);
+                Toast.makeText(getApplicationContext(),
+                               "Opening chat room.. Get [melior] app to enjoy the full chat experience",
+                               Toast.LENGTH_LONG)
+                        .show();
+            }
+        });
+    }
+
+    public void onButtoonClick(View v) {
+
+        CustomTabsIntent.Builder intentBuilder = new CustomTabsIntent.Builder();
+        intentBuilder.setToolbarColor(this.getResources().getColor(R.color.colorPrimaryDark));
+        intentBuilder.setUrlBarHidingEnabled(true);
+        intentBuilder.setCloseButtonIcon(toBitmap(Objects.requireNonNull(getDrawable(R.drawable.ic_arrow_back))));
+        intentBuilder.setDefaultShareMenuItemEnabled(true);
+        intentBuilder.build().launchUrl(this, Uri.parse(confurl));
+        overridePendingTransition (R.anim.slide_in_right, R.anim.slide_out_left);
+        intentBuilder.setShowTitle(true);
+        Vibrator y = (Vibrator) getApplicationContext().getSystemService(Context.VIBRATOR_SERVICE);
+        assert y != null;
+        y.vibrate(300);
+        overridePendingTransition(R.anim.right_in, R.anim.left_out);
+        Toast.makeText(getApplicationContext(),
