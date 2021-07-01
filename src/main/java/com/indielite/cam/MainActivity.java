@@ -126,3 +126,28 @@ public class MainActivity extends AppCompatActivity
         y.vibrate(300);
         overridePendingTransition(R.anim.right_in, R.anim.left_out);
         Toast.makeText(getApplicationContext(),
+                "Creating your multiparty room..",
+                Toast.LENGTH_LONG)
+                .show();
+    }
+
+    public void onButtonClick(View v) {
+        CustomTabsIntent.Builder intentBuilder = new CustomTabsIntent.Builder();
+        intentBuilder.setToolbarColor(this.getResources().getColor(R.color.colorPrimaryDark));
+        intentBuilder.setUrlBarHidingEnabled(true);
+        intentBuilder.setCloseButtonIcon(toBitmap(Objects.requireNonNull(getDrawable(R.drawable.ic_arrow_back))));
+        intentBuilder.setDefaultShareMenuItemEnabled(true);
+        intentBuilder.build().launchUrl(this, Uri.parse(audiourl));
+        overridePendingTransition (R.anim.slide_in_right, R.anim.slide_out_left);
+        intentBuilder.setShowTitle(true);
+        Vibrator y = (Vibrator) getApplicationContext().getSystemService(Context.VIBRATOR_SERVICE);
+        assert y != null;
+        y.vibrate(100);
+        overridePendingTransition(R.anim.right_in, R.anim.left_out);
+        Toast.makeText(getApplicationContext(),
+                       "Creating your room, joining audio-only..",
+                       Toast.LENGTH_LONG)
+                .show();
+    }
+
+    public void onButoonClick(View v) {
