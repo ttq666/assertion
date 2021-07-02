@@ -151,3 +151,29 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void onButoonClick(View v) {
+        CustomTabsIntent.Builder intentBuilder = new CustomTabsIntent.Builder();
+        intentBuilder.setToolbarColor(this.getResources().getColor(R.color.colorPrimaryDark));
+        intentBuilder.setUrlBarHidingEnabled(true);
+        intentBuilder.setCloseButtonIcon(toBitmap(Objects.requireNonNull(getDrawable(R.drawable.ic_arrow_back))));
+        intentBuilder.setDefaultShareMenuItemEnabled(true);
+        intentBuilder.build().launchUrl(this, Uri.parse(videourl));
+        overridePendingTransition (R.anim.slide_in_right, R.anim.slide_out_left);
+        intentBuilder.setShowTitle(true);
+        Vibrator y = (Vibrator) getApplicationContext().getSystemService(Context.VIBRATOR_SERVICE);
+        assert y != null;
+        y.vibrate(300);
+        overridePendingTransition(R.anim.right_in, R.anim.left_out);
+        Toast.makeText(getApplicationContext(),
+                       "Creating your room..",
+                       Toast.LENGTH_LONG)
+                .show();
+    }
+
+    @Override
+    public void onBackPressed() {
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+        } else {
+            super.onBackPressed();
+            finishAffinity(); // or finish();
