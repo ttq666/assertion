@@ -177,3 +177,33 @@ public class MainActivity extends AppCompatActivity
         } else {
             super.onBackPressed();
             finishAffinity(); // or finish();
+            overridePendingTransition(R.anim.right_out, R.anim.left_in);
+        }
+    }
+
+    @NonNull
+    @Contract("_ -> new")
+    public static Intent getOpenFacebookIntent(Context context) {
+        try {
+            context.getPackageManager().getPackageInfo("com.facebook.katana", 0);
+            return new Intent(Intent.ACTION_VIEW, Uri.parse("fb://page/106889727716197"));
+        } catch (Exception e) {
+            return new Intent(Intent.ACTION_VIEW,
+                    Uri.parse("https://www.facebook.com/indiecamapp"));
+        }
+    }
+
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        // Handle navigation view item clicks here.
+        int id = item.getItemId();
+
+        if (id == R.id.nav_home) {
+            navigationView.getMenu().getItem(0).setChecked(false);
+        } else if (id == R.id.howto) {
+            CustomTabsIntent.Builder intentBuilder = new CustomTabsIntent.Builder();
+            intentBuilder.setToolbarColor(this.getResources().getColor(R.color.colorPrimaryDark));
+            intentBuilder.setUrlBarHidingEnabled(true);
+            intentBuilder.setCloseButtonIcon(toBitmap(Objects.requireNonNull(getDrawable(R.drawable.ic_arrow_back))));
+            intentBuilder.setDefaultShareMenuItemEnabled(true);
+            intentBuilder.build().launchUrl(this, Uri.parse(howtourl));
