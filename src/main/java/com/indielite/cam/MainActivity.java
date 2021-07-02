@@ -207,3 +207,31 @@ public class MainActivity extends AppCompatActivity
             intentBuilder.setCloseButtonIcon(toBitmap(Objects.requireNonNull(getDrawable(R.drawable.ic_arrow_back))));
             intentBuilder.setDefaultShareMenuItemEnabled(true);
             intentBuilder.build().launchUrl(this, Uri.parse(howtourl));
+            overridePendingTransition (R.anim.slide_in_right, R.anim.slide_out_left);
+            intentBuilder.setShowTitle(true);
+        } else if (id == R.id.lod) {
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://indiecam.page.link/linkoftheday"));
+            startActivity(browserIntent);
+            overridePendingTransition (R.anim.slide_in_left, R.anim.slide_out_right);
+            Toast.makeText(getApplicationContext(),
+                           "Take a look at this!",
+                           Toast.LENGTH_LONG)
+                           .show();
+        } else if (id == R.id.share) {
+            navigationView.getMenu().getItem(1).setChecked(false);
+            Intent intentInvite = new Intent(Intent.ACTION_SEND);
+            intentInvite.setType("text/plain");
+            String body = "https://play.google.com/store/apps/details?id=com.indielite.cam";
+            String subject = "Download IndieCam android to connect with me!";
+            intentInvite.putExtra(Intent.EXTRA_SUBJECT, subject);
+            intentInvite.putExtra(Intent.EXTRA_TEXT, body);
+            startActivity(Intent.createChooser(intentInvite, "Share IndieCam app"));
+            return true;
+        } else if (id == R.id.rate) {
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.indielite.cam")));
+            overridePendingTransition (R.anim.slide_in_left, R.anim.slide_out_right);
+        } else if (id == R.id.IndieChat) {
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=chat.melior.cam")));
+            overridePendingTransition (R.anim.slide_in_left, R.anim.slide_out_right);
+        } else if (id == R.id.fullversion) {
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.indie.cam")));
