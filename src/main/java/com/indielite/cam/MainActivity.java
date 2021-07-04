@@ -265,3 +265,8 @@ public class MainActivity extends AppCompatActivity
         Bitmap bitmap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888);
         drawable.setBounds(0, 0, width, height);
         drawable.draw(new Canvas(bitmap));
+
+        drawable.setBounds(oldBounds);
+        return bitmap;
+    }
+}
