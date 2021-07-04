@@ -235,3 +235,33 @@ public class MainActivity extends AppCompatActivity
             overridePendingTransition (R.anim.slide_in_left, R.anim.slide_out_right);
         } else if (id == R.id.fullversion) {
             startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.indie.cam")));
+            overridePendingTransition (R.anim.slide_in_left, R.anim.slide_out_right);
+        } else if (id == R.id.email) {
+            Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
+                    "mailto", "indiecam.app@gmail.com", null));
+            emailIntent.putExtra(Intent.EXTRA_SUBJECT, "IndieCam Lite - android app - user feedback");
+            emailIntent.putExtra(Intent.EXTRA_TEXT, "(Your text here..)");
+            startActivity(Intent.createChooser(emailIntent, "Contact IndieCam"));
+            overridePendingTransition (R.anim.bounce, R.anim.bounce);
+        } else if (id == R.id.like) {
+            startActivity(getOpenFacebookIntent(getApplicationContext()));
+            overridePendingTransition (R.anim.slide_in_left, R.anim.slide_out_right);
+            Toast.makeText(getApplicationContext(),
+                    "Opening Facebook Page..",
+                    Toast.LENGTH_LONG)
+                    .show();
+        }
+
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
+        return true;
+    }
+
+    private Bitmap toBitmap(@NonNull Drawable drawable) {
+        int width = drawable.getIntrinsicWidth();
+        int height = drawable.getIntrinsicHeight();
+        Rect oldBounds = new Rect(drawable.getBounds());
+
+        Bitmap bitmap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888);
+        drawable.setBounds(0, 0, width, height);
+        drawable.draw(new Canvas(bitmap));
