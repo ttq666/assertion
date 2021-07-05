@@ -125,3 +125,9 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
                                                                    NotificationManager.IMPORTANCE_HIGH);
             assert notificationManager != null;
             notificationManager.createNotificationChannel (channel);
+        }
+
+        assert notificationManager != null;
+        notificationManager.notify (0 /* ID of notification */, notificationBuilder.build ());
+    }
+}
