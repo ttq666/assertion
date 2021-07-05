@@ -58,3 +58,36 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
      * is initially generated so this is where you would retrieve the token.
      */
     @Override
+    public void onNewToken(@NotNull String token) {
+        Log.d ("Refreshed token: %s", token);
+
+        // If you want to send messages to this application instance or
+        // manage this apps subscriptions on the server side, send the
+        // Instance ID token to your app server.
+        sendRegistrationToServer (token);
+    }
+
+    /**
+     * Handle time allotted to BroadcastReceivers.
+     */
+    private void handleNow() {
+
+    }
+
+    /**
+     * // [END on_new_token]
+     * /**
+     * Persist token to third-party servers.
+     * <p>
+     * Modify this method to associate the user's FCM InstanceID token with any server-side account
+     * maintained by your application.
+     *
+     * @param token The new token.
+     */
+    private void sendRegistrationToServer(String token) {
+        // TODO: Implement this method to send token to your app server.
+    }
+
+    /**
+     * Create and show a simple notification containing the received FCM message.
+     *
