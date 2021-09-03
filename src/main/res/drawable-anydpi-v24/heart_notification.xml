@@ -4,4 +4,5 @@
     android:viewportWidth="24"
     android:viewportHeight="24"
     android:tint="#FFFFFF">
-  <group andr
+  <group android:scaleX="1.104"
+      androi
