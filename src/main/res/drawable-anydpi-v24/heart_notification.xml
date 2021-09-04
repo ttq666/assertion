@@ -6,4 +6,4 @@
     android:tint="#FFFFFF">
   <group android:scaleX="1.104"
       android:scaleY="1.104"
-      
+      android:translateX="-1.248"
