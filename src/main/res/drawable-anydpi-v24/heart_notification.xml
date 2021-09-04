@@ -5,4 +5,5 @@
     android:viewportHeight="24"
     android:tint="#FFFFFF">
   <group android:scaleX="1.104"
-      androi
+      android:scaleY="1.104"
+      
