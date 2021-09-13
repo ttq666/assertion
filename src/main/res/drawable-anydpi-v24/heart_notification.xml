@@ -9,4 +9,5 @@
       android:translateX="-1.248"
       android:translateY="-1.8">
     <path
-        android:fillColor="@android:c
+        android:fillColor="@android:color/white"
+        android:path
