@@ -10,4 +10,4 @@
       android:translateY="-1.8">
     <path
         android:fillColor="@android:color/white"
-        android:path
+        android:pathData="M16.5,3c-1.74,0 -3.41,0
