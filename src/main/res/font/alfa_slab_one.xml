@@ -1,3 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
 <font-family xmlns:app="http://schemas.android.com/apk/res-auto"
-        app:fontProvide
+        app:fontProviderAuthority="com.google.android.gm
