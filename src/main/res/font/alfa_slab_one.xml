@@ -4,4 +4,4 @@
         app:fontProviderPackage="com.google.android.gms"
         app:fontProviderQuery="Alfa Slab One"
         app:fontProviderCerts="@array/com_google_android_gms_fonts_certs">
-</font-fami
+</font-family>
