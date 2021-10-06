@@ -3,4 +3,4 @@
         app:fontProviderAuthority="com.google.android.gms.fonts"
         app:fontProviderPackage="com.google.android.gms"
         app:fontProviderQuery="Alfa Slab One"
-        app:fontProv
+        app:fontProviderCerts="@array/com_google_a
