@@ -20,4 +20,5 @@
         android:layout_gravity="start"
         android:backgroundTint="#212D3B"
         android:fitsSystemWindows="true"
-        app:headerLa
+        app:headerLayout="@layout/nav_header_main"
+       
