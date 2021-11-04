@@ -23,4 +23,6 @@
         app:headerLayout="@layout/nav_header_main"
         app:itemIconTint="@color/design_default_color_secondary_variant"
         app:itemTextColor="#51C0AD"
-        app:menu="@menu/
+        app:menu="@menu/activity_main_drawer" />
+
+</andro
