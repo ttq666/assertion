@@ -21,4 +21,4 @@
         android:backgroundTint="#212D3B"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_main"
-        app:itemIconTint="@color/
+        app:itemIconTint="@color/design_default_color_secondary_v
