@@ -25,4 +25,4 @@
         app:itemTextColor="#51C0AD"
         app:menu="@menu/activity_main_drawer" />
 
-</androidx.drawerlayout.widge
+</androidx.drawerlayout.widget.DrawerLayout>
