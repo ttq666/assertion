@@ -6,4 +6,5 @@
     android:layout_height="match_parent"
     tools:context="com.indielite.cam.MainActivity">
 
-    <com.google.android.material.appbar.App
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_w
