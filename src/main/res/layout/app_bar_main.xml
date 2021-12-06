@@ -13,4 +13,5 @@
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
-            android:layo
+            android:layout_width="match_parent"
+        
