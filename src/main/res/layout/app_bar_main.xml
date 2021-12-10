@@ -17,4 +17,4 @@
             android:layout_height="?attr/actionBarSize"
             android:background="#E91E63"
             app:popupTheme="@style/AppTheme.PopupOverlay"
-            app:titleTextApp
+            app:titleTextAppearance="@style/TextAppearance.A
