@@ -19,4 +19,6 @@
             app:popupTheme="@style/AppTheme.PopupOverlay"
             app:titleTextAppearance="@style/TextAppearance.AppCompat.Large" />
 
-    </com.google.android.material.a
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include
