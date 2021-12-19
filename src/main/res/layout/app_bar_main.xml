@@ -21,4 +21,4 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include
+    <include layout="@layout/content_main" 
