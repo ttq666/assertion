@@ -2,4 +2,5 @@
 
 <LinearLayout
 
-    android:layout
+    android:layout_width="match_parent"
+    andro
