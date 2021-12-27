@@ -7,4 +7,5 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/side_nav_bar"
     android:gravity="bottom"
-    android:orientation="ver
+    android:orientation="vertical"
+    android:paddingBott
