@@ -4,4 +4,5 @@
 
     android:layout_width="match_parent"
     android:layout_height="@dimen/nav_header_height"
-    xmlns:app="http://schemas.android.com/apk/res-
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@draw
