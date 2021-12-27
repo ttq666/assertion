@@ -8,4 +8,4 @@
     android:background="@drawable/side_nav_bar"
     android:gravity="bottom"
     android:orientation="vertical"
-    android:paddingBott
+    android:paddingBottom="@dimen/activity_vertical_mar
