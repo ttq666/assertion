@@ -6,4 +6,5 @@
     android:layout_height="@dimen/nav_header_height"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/side_nav_bar"
-    androi
+    android:gravity="bottom"
+    
