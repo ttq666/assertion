@@ -27,4 +27,4 @@
         app:srcCompat="@mipmap/oneonone" />
 
     <TextView
-        android:layo
+        android:layout_width="match_parent"
