@@ -31,4 +31,4 @@
         android:layout_height="wrap_content"
         android:clickable="false"
         android:contentDescription="@string/app_name"
-   
+        android:fontFamily="sans-s
