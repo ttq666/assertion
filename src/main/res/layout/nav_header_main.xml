@@ -32,4 +32,5 @@
         android:clickable="false"
         android:contentDescription="@string/app_name"
         android:fontFamily="sans-serif-black"
-        andro
+        android:hapticFeedbackEnabled="false"
+       
