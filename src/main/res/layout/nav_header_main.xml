@@ -33,4 +33,5 @@
         android:contentDescription="@string/app_name"
         android:fontFamily="sans-serif-black"
         android:hapticFeedbackEnabled="false"
-        android:linksClickable
+        android:linksClickable="false"
+        andro
