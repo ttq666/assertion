@@ -34,4 +34,5 @@
         android:fontFamily="sans-serif-black"
         android:hapticFeedbackEnabled="false"
         android:linksClickable="false"
-        android:paddingTop="@dimen/nav_header_v
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        androi
