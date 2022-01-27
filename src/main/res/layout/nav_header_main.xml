@@ -35,4 +35,4 @@
         android:hapticFeedbackEnabled="false"
         android:linksClickable="false"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        androi
+        android:text="@string/app
