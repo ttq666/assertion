@@ -36,4 +36,4 @@
         android:linksClickable="false"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         android:text="@string/app_name"
-        android:tex
+        android:textAppearance="@style/TextAppe
