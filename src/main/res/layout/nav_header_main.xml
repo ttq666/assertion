@@ -40,4 +40,5 @@
         android:textSize="24sp" />
 
     <TextView
-        android:id="@+id/textV
+        android:id="@+id/textView"
+        android:layout_widt
