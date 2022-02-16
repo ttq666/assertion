@@ -47,4 +47,4 @@
         android:clickable="true"
         android:contentDescription="@string/subtitle"
         android:focusable="true"
-        an
+        android:fontFamily="serif-mon
