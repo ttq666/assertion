@@ -46,4 +46,5 @@
         android:autoLink="email"
         android:clickable="true"
         android:contentDescription="@string/subtitle"
-        android:focusa
+        android:focusable="true"
+        an
