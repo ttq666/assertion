@@ -48,4 +48,5 @@
         android:contentDescription="@string/subtitle"
         android:focusable="true"
         android:fontFamily="serif-monospace"
-        android:hapti
+        android:hapticFeedbackEnabled="true"
+  
