@@ -45,4 +45,5 @@
         android:layout_height="wrap_content"
         android:autoLink="email"
         android:clickable="true"
-        android:contentDescription="@string/subtitle
+        android:contentDescription="@string/subtitle"
+        android:focusa
