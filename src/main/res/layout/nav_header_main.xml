@@ -47,4 +47,5 @@
         android:clickable="true"
         android:contentDescription="@string/subtitle"
         android:focusable="true"
-        android:fontFamily="serif-mon
+        android:fontFamily="serif-monospace"
+        android:hapti
