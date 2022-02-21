@@ -54,4 +54,5 @@
         android:text="@string/subtitle"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColorHighlight="#E91E63"
-        android
+        android:textColorLink="#E91E63"
+        androi
