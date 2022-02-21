@@ -52,4 +52,5 @@
         android:linksClickable="true"
         android:longClickable="true"
         android:text="@string/subtitle"
-        android:textAppearance="@style/TextAppearance.AppCompat
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColorHighl
