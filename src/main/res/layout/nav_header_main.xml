@@ -50,4 +50,5 @@
         android:fontFamily="serif-monospace"
         android:hapticFeedbackEnabled="true"
         android:linksClickable="true"
-        android:longClickable="
+        android:longClickable="true"
+        andro
