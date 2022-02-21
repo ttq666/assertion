@@ -53,4 +53,5 @@
         android:longClickable="true"
         android:text="@string/subtitle"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textColorHighl
+        android:textColorHighlight="#E91E63"
+        android
