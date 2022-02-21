@@ -51,4 +51,5 @@
         android:hapticFeedbackEnabled="true"
         android:linksClickable="true"
         android:longClickable="true"
-        andro
+        android:text="@string/subtitle"
+ 
