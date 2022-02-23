@@ -55,4 +55,6 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColorHighlight="#E91E63"
         android:textColorLink="#E91E63"
-        androi
+        android:typeface="normal" />
+
+</
