@@ -37,3 +37,35 @@
             android:layout_height="wrap_content"
             android:layout_weight="35"
             android:background="#FF9800"
+            android:backgroundTint="#FF9800"
+            android:contentDescription="@string/button4"
+            android:onClick="onButoonClick"
+            android:visibility="visible"
+            app:srcCompat="@mipmap/videocall" />
+
+        <ImageView
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="35"
+            android:background="#CDDC39"
+            android:backgroundTint="#CDDC39"
+            android:contentDescription="@string/button5"
+            android:onClick="onButtonClick"
+            android:visibility="visible"
+            app:srcCompat="@mipmap/phone" />
+
+        <ImageView
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:background="#52C2AF"
+            android:backgroundTint="#52C2AF"
+            android:contentDescription="@string/button3"
+            android:visibility="visible"
+            app:srcCompat="@mipmap/community" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
