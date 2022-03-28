@@ -10,3 +10,4 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
+        android:layout_widt
