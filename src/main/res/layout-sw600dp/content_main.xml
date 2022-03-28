@@ -9,4 +9,4 @@
     tools:showIn="@layout/app_bar_main">
 
     <LinearLayout
-        an
+        android:id="@+id/linearLayout"
