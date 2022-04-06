@@ -20,4 +20,5 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id
+            android:id="@+id/button2"
+          
