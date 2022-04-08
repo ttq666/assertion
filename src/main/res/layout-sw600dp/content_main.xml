@@ -26,4 +26,4 @@
             android:layout_weight="15"
             android:background="#FFFFFF"
             android:backgroundTint="#AC8AEA"
-            an
+            android:contentDescription="@string/bu
