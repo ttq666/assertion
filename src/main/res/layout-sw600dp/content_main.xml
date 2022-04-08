@@ -25,4 +25,5 @@
             android:layout_height="wrap_content"
             android:layout_weight="15"
             android:background="#FFFFFF"
-            android:backgroundTint
+            android:backgroundTint="#AC8AEA"
+            an
