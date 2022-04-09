@@ -26,4 +26,5 @@
             android:layout_weight="15"
             android:background="#FFFFFF"
             android:backgroundTint="#AC8AEA"
-            android:contentDescription="@string/bu
+            android:contentDescription="@string/button2"
+            andr
