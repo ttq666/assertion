@@ -31,4 +31,5 @@
             app:srcCompat="@mipmap/web" />
 
         <ImageView
-            android:id="@+id/butt
+            android:id="@+id/button4"
+            android:layo
