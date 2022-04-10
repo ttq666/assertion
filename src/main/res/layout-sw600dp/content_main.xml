@@ -28,4 +28,4 @@
             android:backgroundTint="#AC8AEA"
             android:contentDescription="@string/button2"
             android:visibility="visible"
-       
+            app:srcCompat="@mipmap/web"
