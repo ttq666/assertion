@@ -27,4 +27,5 @@
             android:background="#FFFFFF"
             android:backgroundTint="#AC8AEA"
             android:contentDescription="@string/button2"
-            andr
+            android:visibility="visible"
+       
