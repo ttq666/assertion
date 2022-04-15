@@ -36,4 +36,5 @@
             android:layout_height="wrap_content"
             android:layout_weight="35"
             android:background="#FF9800"
-            android:backgroundTint=
+            android:backgroundTint="#FF9800"
+            android:co
