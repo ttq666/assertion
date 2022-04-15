@@ -43,4 +43,4 @@
             app:srcCompat="@mipmap/videocall" />
 
         <ImageView
- 
+            android:id="@+id/button
