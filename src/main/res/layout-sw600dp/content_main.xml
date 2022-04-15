@@ -37,4 +37,5 @@
             android:layout_weight="35"
             android:background="#FF9800"
             android:backgroundTint="#FF9800"
-            android:contentDescription="@stri
+            android:contentDescription="@string/button4"
+            android:
