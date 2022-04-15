@@ -40,4 +40,7 @@
             android:contentDescription="@string/button4"
             android:onClick="onButoonClick"
             android:visibility="visible"
-            app:srcCompat="@mipmap/vi
+            app:srcCompat="@mipmap/videocall" />
+
+        <ImageView
+ 
