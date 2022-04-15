@@ -38,4 +38,5 @@
             android:background="#FF9800"
             android:backgroundTint="#FF9800"
             android:contentDescription="@string/button4"
-            android:
+            android:onClick="onButoonClick"
+            and
