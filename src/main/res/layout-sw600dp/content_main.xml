@@ -50,4 +50,4 @@
             android:background="#CDDC39"
             android:backgroundTint="#CDDC39"
             android:contentDescription="@string/button5"
-            a
+            android:onClick="onButton
