@@ -56,4 +56,4 @@
 
         <ImageView
             android:id="@+id/button3"
-          
+            android:layout_width="match
