@@ -52,4 +52,6 @@
             android:contentDescription="@string/button5"
             android:onClick="onButtonClick"
             android:visibility="visible"
-            app:srcCompat="@mipmap/
+            app:srcCompat="@mipmap/phone" />
+
+        <I
