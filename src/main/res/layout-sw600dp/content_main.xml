@@ -54,4 +54,5 @@
             android:visibility="visible"
             app:srcCompat="@mipmap/phone" />
 
-        <I
+        <ImageView
+            andr
