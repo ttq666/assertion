@@ -51,4 +51,5 @@
             android:backgroundTint="#CDDC39"
             android:contentDescription="@string/button5"
             android:onClick="onButtonClick"
-            andro
+            android:visibility="visible"
+         
