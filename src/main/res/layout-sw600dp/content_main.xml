@@ -60,3 +60,4 @@
             android:layout_height="wrap_content"
             android:layout_weight="15"
             android:background="#52C2AF"
+            android:backgroundTi
