@@ -61,4 +61,5 @@
             android:layout_weight="15"
             android:background="#52C2AF"
             android:backgroundTint="#52C2AF"
-            android:contentDescription="@
+            android:contentDescription="@string/button3"
+            androi
