@@ -62,4 +62,5 @@
             android:background="#52C2AF"
             android:backgroundTint="#52C2AF"
             android:contentDescription="@string/button3"
-            androi
+            android:visibility="visible"
+            a
