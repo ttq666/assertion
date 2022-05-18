@@ -63,4 +63,8 @@
             android:backgroundTint="#52C2AF"
             android:contentDescription="@string/button3"
             android:visibility="visible"
-            app:srcCompat="@mipmap/community
+            app:srcCompat="@mipmap/community" />
+
+    </LinearLayout>
+
+</and
