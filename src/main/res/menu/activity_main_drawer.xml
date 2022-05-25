@@ -40,3 +40,13 @@
                 android:icon="@mipmap/heart"
                 android:title="@string/fullversion" />
             <item
+                android:id="@+id/like"
+                android:icon="@mipmap/like"
+                android:title="@string/like" />
+            <item
+            android:id="@+id/email"
+            android:icon="@mipmap/email"
+            android:title="@string/isemail" />
+    </group>
+
+</menu>
