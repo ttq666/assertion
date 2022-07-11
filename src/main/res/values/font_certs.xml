@@ -4,4 +4,4 @@
         <item>@array/com_google_android_gms_fonts_certs_dev</item>
         <item>@array/com_google_android_gms_fonts_certs_prod</item>
     </array>
-    <str
+    <string-array name="com_goo
