@@ -1,0 +1,26 @@
+
+<resources>
+    <string name="app_name">IndieCam Lite</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="button5">call</string>
+    <string name="button3">chat</string>
+    <string name="button4">videocall</string>
+    <string name="button2">website</string>
+    <string name="email">indiecam.app@gmail.com</string>
+    <string name="isemail">Email IndieCam</string>
+    <string name="home">Home</string>
+    <string name="default_notification_channel_id">IndieCam Lite Notifications</string>
+    <string name="share">Share app</string>
+    <string name="rate_app">Rate app</string>
+    <string name="subtitle">..Love to connect</string>
+    <string name="like">Like app on Fb</string>
+    <string name="about">About</string>
+    <string name="link_of_the_day">Link of the day</string>
+    <string name="how_to">How it works</string>
+    <string name="IndieChat">Get [melior] Messenger</string>
+    <string name="label_action_share">Share with</string>
+    <string name="chromeextra">extra</string>
+    <string name="fullversion">Get IndieCams \'s full version</string>
+</resources>
