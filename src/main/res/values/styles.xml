@@ -5,4 +5,5 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimaryDark</item>
         <item name="colorPrimaryDark">@color/colorPrimary</item>
-        <item name="colorAccent">@c
+        <item name="colorAccent">@color/colorAccent</item>
+    </styl
