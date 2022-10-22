@@ -9,4 +9,4 @@
     </style>
 
     <style name="AppTheme.NoActionBar">
-        <item name=
+        <item name="windowActionBar">false</i
